@@ -26,6 +26,8 @@ else:
         serial_com.append(port_list_0[0])
 print(serial_com)
 
+def show_rec_msg(read, time_data):
+    strShow(read, time_data)
 
 def thread_recv():  # 接收数据显示数据
     while True:
@@ -33,7 +35,7 @@ def thread_recv():  # 接收数据显示数据
             time_data = datetime.datetime.now()
             read = ser.readall()
             if len(read) > 0:
-                hexShow(read, time_data)
+                show_rec_msg(read, time_data)
             if on_hit == False:
                 break
         if on_hit == False:
@@ -82,66 +84,57 @@ ser.open()  # 打开串口
 print(ser.is_open)  # 检验串口是否打开
 '''
 def open_serial():
-    global on_hit, var3, ser, val_com
-    src = text_baud.get(1.0, END).strip().replace('\n', '').encode()
-    src1 = bytes(src).decode('ascii')
+    global on_hit, open_btn_name, ser, val_com
+
+    f = open(File_name, encoding='utf-8')
+    content = f.read()  # 使用loads()方法，需要先读文件
+    user_dic = json.loads(content)
+    print(user_dic)
+    print(type(user_dic))  # 打印res类型
+    print(user_dic.keys())  # 打印字典的所有Key
+    src1 = user_dic['com_info']['baudrate']
+    val_com = user_dic['com_info']['port']
     print(src1)
+    f.close()
     time.sleep(0.1)
-    data = open("dump.txt", "w")
-    json.dump(src1, data)
-    data.close()
-    print(1)
+
     if on_hit == False:
         print("port", val_com)
         print(src1)
         ser = serial.Serial(  # 下面这些参数根据情况修改
             port=val_com,
-            baudrate=115200,
+            baudrate=src1,
             parity=serial.PARITY_NONE,
             timeout=0.23,
             stopbits=serial.STOPBITS_ONE,
             bytesize=serial.EIGHTBITS)
         print("串口打开")
-        var3.set('关闭串口')
+        open_btn_name.set('关闭串口')
         on_hit = True
         recv_data = threading.Thread(target=thread_recv)
         recv_data.start()
     else:
         on_hit = False
         ser.close()
-        var3.set("打开串口")
+        open_btn_name.set("打开串口")
         print("串口关闭")
 
 
 def hexShow(argv, time_data):  # 接收数据格式调整
-    # result = ''
-    # hlen = len(argv)
-    # for i in range(hlen):
-    #     hvol = argv[i]
-    #     hhex = hex(hvol)[2:]
-    #     result += hhex.upper() + ' '
-    # result = "%s: %s " % time_data + argv
-    # text_recv.insert(1.0, result + '\n')
     result = ''
     hlen = len(argv)
     for i in range(hlen):
         hvol = argv[i]
         hhex = hex(hvol)[2:]
         result += hhex.upper() + ' '
-    result = str(argv, encoding="utf-8")
-    result = "%s:  " % time_data + result
+    result = "%s: %s " % time_data + argv
     text_recv.insert(1.0, result + '\n')
 
 
 def strShow(argv, time_data):  # 接收数据格式调整
-    # result = ''
-    # hlen = len(argv)
-    # for i in range(hlen):
-    #     hvol = argv[i]
-    #     hhex = hex(hvol)[2:]
-    #     result += hhex.upper() + ' '
-    # result = "%s:" % time_data + result
-    text_recv.insert(1.0, argv + '\n')
+    result = str(argv, encoding="utf-8")
+    result = "%s:  " % time_data + result
+    text_recv.insert(END, result + '\n')
 
 
 def get_data():  # 协议输入提取和转码
@@ -186,11 +179,11 @@ var1 = StringVar()
 l = Label(init_window, bg='yellow', width=14, textvariable=var1)
 l.grid(row=0, column=0)
 
-var3 = StringVar()
-var3.set('打开串口')
+open_btn_name = StringVar()
+open_btn_name.set('打开串口')
 b1 = Button(init_window, text='串口', width=10, height=1, command=print_selection)
 b1.grid(row=1, column=0)
-b2 = Button(init_window, textvariable=var3, width=10, height=1, command=open_serial)
+b2 = Button(init_window, textvariable=open_btn_name, width=10, height=1, command=open_serial)
 b2.grid(row=1, column=2)
 b2 = Button(init_window, text="发送", width=10, height=1, command=get_data)
 b2.grid(row=1, column=4)
