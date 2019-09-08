@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07bb6fc2-0d92-4f11-99d0-ee81ad8c4044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Serial/test_thinker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tkinter_code/01text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tkinter_code/02button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tkinter_code/03entry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tkinter_code/04Text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tkinter_code/05Listbox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tkinter_code/06radiobutton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tkinter_code/07checkbutton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tkinter_code/08scale.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tkinter_code/09canvas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tkinter_code/10menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tkinter_code/11Frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tkinter_code/13pack/13pack_grid_place.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tkinter_code/13pack/pack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tkinter_code/13pack/place.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tkinter_code/14input.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serial/dump.json" beforeDir="false" afterPath="$PROJECT_DIR$/Serial/dump.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serial/py_seria_tool2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Serial/py_seria_tool2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serial/py_serial_tool3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Serial/py_serial_tool3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,61 +28,92 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Serial/py_seria_tool.py">
+        <entry file="file://$PROJECT_DIR$/tkinter_code/07checkbutton.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1925">
-              <caret line="84" column="37" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+            <state relative-caret-position="1290">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Serial/py_seria_tool2.py">
+        <entry file="file://$PROJECT_DIR$/tkinter_code/08scale.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3475">
-              <caret line="146" column="36" selection-start-line="146" selection-start-column="36" selection-end-line="146" selection-end-column="36" />
+            <state relative-caret-position="476">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tkinter_code/09canvas.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1170">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tkinter_code/10menu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="596">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tkinter_code/11Frame.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="596">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tkinter_code/12messageBox.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-450" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tkinter_code/13pack/13pack_grid_place.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="596">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tkinter_code/13pack/pack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tkinter_code/13pack/place.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="596">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Serial/py_serial_tool3.py">
+        <entry file="file://$PROJECT_DIR$/tkinter_code/14input.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="83" selection-start-line="83" selection-end-line="84" selection-end-column="38" />
+            <state relative-caret-position="596">
+              <caret line="135" selection-start-line="135" selection-end-line="135" />
               <folding>
-                <element signature="e#23#53#0" expanded="true" />
+                <element signature="e#59#98#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Serial/test_thinker.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="12" selection-start-line="12" selection-end-line="15" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Python37/Lib/tkinter/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="3948" column="20" selection-start-line="3948" selection-start-column="20" selection-end-line="3948" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -101,6 +143,22 @@
         <option value="$PROJECT_DIR$/Serial/py_seria_tool2.py" />
         <option value="$PROJECT_DIR$/Serial/test_thinker.py" />
         <option value="$PROJECT_DIR$/Serial/py_serial_tool3.py" />
+        <option value="$PROJECT_DIR$/tkinter_code/01text.py" />
+        <option value="$PROJECT_DIR$/tkinter_code/02button.py" />
+        <option value="$PROJECT_DIR$/tkinter_code/03entry.py" />
+        <option value="$PROJECT_DIR$/tkinter_code/04Text.py" />
+        <option value="$PROJECT_DIR$/tkinter_code/05Listbox.py" />
+        <option value="$PROJECT_DIR$/tkinter_code/06radiobutton.py" />
+        <option value="$PROJECT_DIR$/tkinter_code/07checkbutton.py" />
+        <option value="$PROJECT_DIR$/tkinter_code/08scale.py" />
+        <option value="$PROJECT_DIR$/tkinter_code/09canvas.py" />
+        <option value="$PROJECT_DIR$/tkinter_code/10menu.py" />
+        <option value="$PROJECT_DIR$/tkinter_code/11Frame.py" />
+        <option value="$PROJECT_DIR$/tkinter_code/messageBox.py" />
+        <option value="$PROJECT_DIR$/tkinter_code/13pack_grid_place.py" />
+        <option value="$PROJECT_DIR$/tkinter_code/13pack/pack.py" />
+        <option value="$PROJECT_DIR$/tkinter_code/13pack/place.py" />
+        <option value="$PROJECT_DIR$/tkinter_code/14input.py" />
       </list>
     </option>
   </component>
@@ -110,29 +168,37 @@
     <option name="width" value="1450" />
     <option name="height" value="925" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="py_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="py_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="Py_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Py_demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="py_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="py_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="Serial" type="462c0819:PsiDirectoryNode" />
+              <item name="Py_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Py_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="tkinter_code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Py_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Py_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="tkinter_code" type="462c0819:PsiDirectoryNode" />
+              <item name="13pack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,6 +208,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workE\python\Py_demo\tkinter_code\13pack" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -155,8 +226,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.py_serial_tool3">
-    <configuration name="py_seria_tool" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.14input">
+    <configuration name="12messageBox" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Py_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -164,12 +235,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Serial" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tkinter_code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Serial/py_seria_tool.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tkinter_code/12messageBox.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,7 +249,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="py_seria_tool2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="13pack_grid_place" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Py_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -186,12 +257,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Serial" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tkinter_code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Serial/py_seria_tool2.py" />
+      <option name="SCRIPT_NAME" value="E:\workE\python\Py_demo\tkinter_code\13pack\13pack_grid_place.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,7 +271,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="py_serial_tool3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="14input" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Py_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -208,12 +279,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Serial" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tkinter_code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Serial/py_serial_tool3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tkinter_code/14input.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,7 +293,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="python 串口调试小工具" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pack" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Py_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -230,12 +301,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Serial" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tkinter_code/13pack" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Serial/python 串口调试小工具.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tkinter_code/13pack/pack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -244,29 +315,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_thinker.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="place" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Py_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Serial" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tkinter_code/13pack" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Serial/test_thinker.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tkinter_code/13pack/place.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.py_serial_tool3" />
-        <item itemvalue="Python tests.pytest in test_thinker.py" />
-        <item itemvalue="Python.py_seria_tool2" />
-        <item itemvalue="Python.py_seria_tool" />
-        <item itemvalue="Python.python 串口调试小工具" />
+        <item itemvalue="Python.14input" />
+        <item itemvalue="Python.place" />
+        <item itemvalue="Python.pack" />
+        <item itemvalue="Python.13pack_grid_place" />
+        <item itemvalue="Python.12messageBox" />
       </list>
     </recent_temporary>
   </component>
@@ -282,6 +359,7 @@
       <updated>1567902034866</updated>
       <workItem from="1567902036324" duration="10827000" />
       <workItem from="1567926496412" duration="5912000" />
+      <workItem from="1567945119338" duration="1257000" />
     </task>
     <servers />
   </component>
@@ -294,19 +372,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16739000" />
+    <option name="totallyTimeSpent" value="17996000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20442359" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20628998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45750707" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2917847" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23427331" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2917847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -348,53 +426,63 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Py_demo$py_seria_tool2.coverage" NAME="py_seria_tool2 Coverage Results" MODIFIED="1567907892252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Serial" />
-    <SUITE FILE_PATH="coverage/Py_demo$py_seria_tool.coverage" NAME="py_seria_tool Coverage Results" MODIFIED="1567905336089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Serial" />
-    <SUITE FILE_PATH="coverage/py_demo$py_serial_tool3.coverage" NAME="py_serial_tool3 Coverage Results" MODIFIED="1567932421011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Serial" />
-    <SUITE FILE_PATH="coverage/py_demo$pytest_in_test_thinker_py.coverage" NAME="pytest in test_thinker.py Coverage Results" MODIFIED="1567932175795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Serial" />
     <SUITE FILE_PATH="coverage/Py_demo$python_.coverage" NAME="python 串口调试小工具 Coverage Results" MODIFIED="1567903577294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Serial" />
+    <SUITE FILE_PATH="coverage/Py_demo$02button.coverage" NAME="02button Coverage Results" MODIFIED="1567945395787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
+    <SUITE FILE_PATH="coverage/Py_demo$pack.coverage" NAME="pack Coverage Results" MODIFIED="1567946253692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code/13pack" />
+    <SUITE FILE_PATH="coverage/Py_demo$01text.coverage" NAME="01text Coverage Results" MODIFIED="1567945348418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
+    <SUITE FILE_PATH="coverage/Py_demo$12messageBox.coverage" NAME="12messageBox Coverage Results" MODIFIED="1567946089960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
+    <SUITE FILE_PATH="coverage/Py_demo$08scale.coverage" NAME="08scale Coverage Results" MODIFIED="1567945740264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
+    <SUITE FILE_PATH="coverage/Py_demo$06radiobutton.coverage" NAME="06radiobutton Coverage Results" MODIFIED="1567945597874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
     <SUITE FILE_PATH="coverage/Py_demo$py_serial_tool3.coverage" NAME="py_serial_tool3 Coverage Results" MODIFIED="1567913641159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Serial" />
+    <SUITE FILE_PATH="coverage/Py_demo$11Frame.coverage" NAME="11Frame Coverage Results" MODIFIED="1567945996559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
+    <SUITE FILE_PATH="coverage/Py_demo$09canvas.coverage" NAME="09canvas Coverage Results" MODIFIED="1567945848999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
+    <SUITE FILE_PATH="coverage/Py_demo$05Listbox.coverage" NAME="05Listbox Coverage Results" MODIFIED="1567945554217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
+    <SUITE FILE_PATH="coverage/Py_demo$10menu.coverage" NAME="10menu Coverage Results" MODIFIED="1567945941632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
+    <SUITE FILE_PATH="coverage/py_demo$py_serial_tool3.coverage" NAME="py_serial_tool3 Coverage Results" MODIFIED="1567932421011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Serial" />
+    <SUITE FILE_PATH="coverage/Py_demo$07checkbutton.coverage" NAME="07checkbutton Coverage Results" MODIFIED="1567945705248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
+    <SUITE FILE_PATH="coverage/Py_demo$13pack_grid_place.coverage" NAME="13pack_grid_place Coverage Results" MODIFIED="1567946169430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
+    <SUITE FILE_PATH="coverage/Py_demo$py_seria_tool.coverage" NAME="py_seria_tool Coverage Results" MODIFIED="1567905336089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Serial" />
+    <SUITE FILE_PATH="coverage/Py_demo$03entry.coverage" NAME="03entry Coverage Results" MODIFIED="1567945452432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
+    <SUITE FILE_PATH="coverage/py_demo$pytest_in_test_thinker_py.coverage" NAME="pytest in test_thinker.py Coverage Results" MODIFIED="1567932175795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Serial" />
+    <SUITE FILE_PATH="coverage/Py_demo$py_seria_tool2.coverage" NAME="py_seria_tool2 Coverage Results" MODIFIED="1567907892252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Serial" />
+    <SUITE FILE_PATH="coverage/Py_demo$place.coverage" NAME="place Coverage Results" MODIFIED="1567946295096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code/13pack" />
+    <SUITE FILE_PATH="coverage/Py_demo$04Text.coverage" NAME="04Text Coverage Results" MODIFIED="1567945498692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
+    <SUITE FILE_PATH="coverage/Py_demo$14input.coverage" NAME="14input Coverage Results" MODIFIED="1567946379857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Serial/python 串口调试小工具.py" />
     <entry file="file://C:/Python37/Lib/codecs.py" />
     <entry file="file://C:/Python37/Lib/tokenize.py" />
     <entry file="file://C:/Python37/Lib/tkinter/__init__.py" />
+    <entry file="file://D:/Python37/Lib/tkinter/__init__.py" />
     <entry file="file://$PROJECT_DIR$/Serial/py_seria_tool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1925">
+        <state relative-caret-position="2310">
           <caret line="84" column="37" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Serial/py_seria_tool2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3475">
+        <state relative-caret-position="4170">
           <caret line="146" column="36" selection-start-line="146" selection-start-column="36" selection-end-line="146" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python37/Lib/tkinter/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="3948" column="20" selection-start-line="3948" selection-start-column="20" selection-end-line="3948" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Serial/test_thinker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="330">
           <caret line="12" selection-start-line="12" selection-end-line="15" selection-end-column="37" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -404,6 +492,129 @@
           <caret line="83" selection-start-line="83" selection-end-line="84" selection-end-column="38" />
           <folding>
             <element signature="e#23#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tkinter_code/01text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tkinter_code/02button.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tkinter_code/03entry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tkinter_code/04Text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tkinter_code/05Listbox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tkinter_code/06radiobutton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="26" column="82" lean-forward="true" selection-start-line="26" selection-start-column="82" selection-end-line="26" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tkinter_code/07checkbutton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tkinter_code/08scale.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tkinter_code/09canvas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tkinter_code/10menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tkinter_code/messageBox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="e#59#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tkinter_code/11Frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tkinter_code/12messageBox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tkinter_code/13pack/13pack_grid_place.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tkinter_code/13pack/pack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tkinter_code/13pack/place.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tkinter_code/14input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+          <folding>
+            <element signature="e#59#98#0" expanded="true" />
           </folding>
         </state>
       </provider>
