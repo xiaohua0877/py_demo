@@ -38,24 +38,18 @@ def test_code_write(b):
     wb = load_workbook('flash.xlsx')
     wb.guess_types = True
     ws = wb.active
-    len1 = len(b) - 1
-    count = 0
-    list11 = b
-    while True:
-        count += 1
-        if len1 < count:
-            break
-        # print(list11)
+    ws['A1'] = 42
+    ws.append([1, 2, 3])
+    src_list = b
+    for bb in src_list:
         new_number = []
-        for n in b[count]:
+        for n in bb:
             if is_number(n) is True:
                 new_number.append(int(n))
             else:
                 new_number.append(n)
-        b[count] = new_number
-        ws.append(b[count])
-    # ws.append(b)
-    print(b)
+        bb = new_number
+        ws.append(bb)
     wb.save("flash.xlsx")
 
 
