@@ -97,7 +97,7 @@ def List_to_7Item(src_list):
             list_dst[6] = list_dst[6] + ' ' + n
         else:
             list_dst.append(n)
-    #print(list_dst)
+    # print(list_dst)
     return list_dst
 
 
@@ -111,6 +111,7 @@ def open_image_component_sizes():
     Image_start_flag = 0
     Image_com_list = []
     space_line = []
+    item_cnt = 0
     while src_line:  # 直到读取完文件
         src_line = f.readline()  # 读取一行文件，包括换行符
         count += 1
@@ -128,7 +129,7 @@ def open_image_component_sizes():
                 Image_com_list.append(space_line)
                 result = ['Code(inc)', 'data', 'RO Data', 'RW Data', 'ZI Data', 'Debug', 'Object Name']
             else:
-                #print('第%s行:%s' % (count, line))
+                # print('第%s行:%s' % (count, line))
                 result = line.split()
 
                 if line.endswith('Object Totals'):
@@ -136,14 +137,71 @@ def open_image_component_sizes():
                     Image_com_list.append(space_line)
                 if len(result) > 7:
                     result = List_to_7Item(result)
+            item_cnt += 1
+            result.insert(0, item_cnt)
             Image_com_list.append(result)
 
     f.close()  # 关闭文件
     return Image_com_list
 
 
-# xlsx_name = 'out\\' + otherStyleTime + 'image_comm.xlsx'
-image_comm_name = 'out\\' + create_my_timename() + '_image_comm.xlsx'
-# my_test_code_str()
-image_com_list = open_image_component_sizes()
-write_image_code(image_com_list, image_comm_name)
+# Image memory map of image
+def open_Memory_Map_of_image():
+    # 第一种方法
+    f = open("flash.map", "r")  # 设置文件对象
+    src_line = f.readline()
+    line = src_line[:-1]
+    count = 1
+    Image_start_flag = 0
+    Image_list = []
+    item_cnt = 0
+    space_line = []
+    while src_line:  # 直到读取完文件
+        src_line = f.readline()  # 读取一行文件，包括换行符
+        count += 1
+        line = src_line[:-1]
+        if len(line) < 3 or line.endswith('------') or line.startswith('====='):
+            continue
+        if 'Memory Map of the' in line:
+            Image_start_flag = 1
+            continue
+        if 'Image component ' in line:
+            break
+        if Image_start_flag == 1:
+            if 'Load Region LR_IROM1' in line:
+                continue
+            if 'Execution Region' in line:
+                continue
+            if 'Exec Addr' in line:
+                result = []
+                Image_list.append(space_line)
+                Image_list.append(space_line)
+                result = ['Exec Addr', 'Load Addr', 'Size', 'Type', 'Attr', 'Idx', 'E Section Name', 'Object']
+            else:
+                # print('第%s行:%s' % (count, line))
+                result = line.split()
+                # print(result)
+            item_cnt += 1
+            result.insert(0, item_cnt)
+            Image_list.append(result)
+
+    f.close()  # 关闭文件
+    # print(Image_list)
+    return Image_list
+
+
+def create_image_comm_xlsx():
+    # xlsx_name = 'out\\' + otherStyleTime + 'image_comm.xlsx'
+    image_comm_name = 'out\\' + create_my_timename() + '_image_comm.xlsx'
+    image_com_list = open_image_component_sizes()
+    write_image_code(image_com_list, image_comm_name)
+
+
+def create_memory_map_xlsx():
+    image_comm_name = 'out\\' + create_my_timename() + '_memory_map.xlsx'
+    Image_list = open_Memory_Map_of_image()
+    write_image_code(Image_list, image_comm_name)
+
+
+create_image_comm_xlsx()
+create_memory_map_xlsx()
