@@ -44,7 +44,11 @@ def write_Memory_Map_data(bbList):
     wb.save(xlsx_name)
 
 
+<<<<<<< HEAD
 # Image memory map of image
+=======
+# Image component sizes
+>>>>>>> 2c25181351c7b00ae78278cfc66912d95cc83572
 def open_Memory_Map_of_image():
     # 第一种方法
     f = open("flash.map", "r")  # 设置文件对象

@@ -7,8 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07bb6fc2-0d92-4f11-99d0-ee81ad8c4044" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/txt_open/keil_map_to_xml.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/txt_open/memory_map_of_the_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/txt_open/memory_map_of_the_image.py" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/txt_open/flash.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/txt_open/flash1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/txt_open/memory_map_of_the_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/txt_open/memory_map_of_the_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/txt_open/open_image_comm.py" beforeDir="false" afterPath="$PROJECT_DIR$/txt_open/open_image_comm.py" afterDir="false" />
+>>>>>>> 2c25181351c7b00ae78278cfc66912d95cc83572
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +43,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/txt_open/memory_map_of_the_image.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="306">
               <caret line="84" column="21" lean-forward="true" selection-start-line="46" selection-end-line="84" selection-end-column="21" />
+=======
+            <state relative-caret-position="516">
+              <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+>>>>>>> 2c25181351c7b00ae78278cfc66912d95cc83572
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
               </folding>
@@ -47,8 +60,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/txt_open/open_image_comm.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-621">
               <caret line="115" column="18" lean-forward="true" selection-start-line="115" selection-start-column="18" selection-end-line="115" selection-end-column="18" />
+=======
+            <state relative-caret-position="214">
+              <caret line="145" column="53" selection-start-line="145" selection-start-column="53" selection-end-line="145" selection-end-column="53" />
+>>>>>>> 2c25181351c7b00ae78278cfc66912d95cc83572
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
               </folding>
@@ -165,6 +183,7 @@
         <option value="$PROJECT_DIR$/tkinter_code/14input.py" />
         <option value="$PROJECT_DIR$/txt_open/file_open.py" />
         <option value="$PROJECT_DIR$/txt_open/open_images_comm1.py" />
+        <option value="$PROJECT_DIR$/txt_open/memory_map_of_the_image.py" />
         <option value="$PROJECT_DIR$/txt_open/open_image_comm.py" />
         <option value="$PROJECT_DIR$/txt_open/memory_map_of_the_image.py" />
         <option value="$PROJECT_DIR$/txt_open/keil_map_to_xml.py" />
@@ -185,6 +204,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> 2c25181351c7b00ae78278cfc66912d95cc83572
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,7 +275,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="keil_map_to_xml" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="memory_map_of_the_image" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Py_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/txt_open" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/txt_open/memory_map_of_the_image.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="open_image_comm" type="PythonConfigurationType" factoryName="Python">
+>>>>>>> 2c25181351c7b00ae78278cfc66912d95cc83572
       <module name="Py_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -352,7 +401,10 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Python.keil_map_to_xml" />
+=======
+>>>>>>> 2c25181351c7b00ae78278cfc66912d95cc83572
         <item itemvalue="Python.memory_map_of_the_image" />
         <item itemvalue="Python tests.pytest in open_image_comm.py" />
         <item itemvalue="Python tests.pytest in open_images_comm1.py" />
@@ -377,7 +429,10 @@
       <workItem from="1568384442380" duration="5367000" />
       <workItem from="1568420457236" duration="5818000" />
       <workItem from="1568428541852" duration="5271000" />
+<<<<<<< HEAD
       <workItem from="1568434760252" duration="1333000" />
+=======
+>>>>>>> 2c25181351c7b00ae78278cfc66912d95cc83572
     </task>
     <servers />
   </component>
@@ -414,7 +469,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="40464000" />
+=======
+    <option name="totallyTimeSpent" value="39131000" />
+>>>>>>> 2c25181351c7b00ae78278cfc66912d95cc83572
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -425,8 +484,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3526912" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39235127" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35357916" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39370933" />
+>>>>>>> 2c25181351c7b00ae78278cfc66912d95cc83572
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -466,25 +530,50 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/txt_open/memory_map_of_the_image.py</url>
+<<<<<<< HEAD
           <line>92</line>
+=======
+          <line>87</line>
+>>>>>>> 2c25181351c7b00ae78278cfc66912d95cc83572
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/txt_open/memory_map_of_the_image.py</url>
+<<<<<<< HEAD
           <line>90</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/txt_open/memory_map_of_the_image.py</url>
           <line>45</line>
+=======
+          <line>83</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/txt_open/open_image_comm.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/txt_open/memory_map_of_the_image.py</url>
+          <line>39</line>
+>>>>>>> 2c25181351c7b00ae78278cfc66912d95cc83572
           <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/Py_demo$13pack_grid_place.coverage" NAME="13pack_grid_place Coverage Results" MODIFIED="1567946169430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
     <SUITE FILE_PATH="coverage/Py_demo$memory_map_of_the_image.coverage" NAME="memory_map_of_the_image Coverage Results" MODIFIED="1568432308850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/txt_open" />
+=======
+    <SUITE FILE_PATH="coverage/Py_demo$pytest_in_memory_map_of_the_image_py.coverage" NAME="pytest in memory_map_of_the_image.py Coverage Results" MODIFIED="1568428634542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/txt_open" />
+    <SUITE FILE_PATH="coverage/py_demo$file_open.coverage" NAME="file_open Coverage Results" MODIFIED="1568389867802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/txt_open" />
+    <SUITE FILE_PATH="coverage/Py_demo$memory_map_of_the_image.coverage" NAME="memory_map_of_the_image Coverage Results" MODIFIED="1568432308850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/txt_open" />
+    <SUITE FILE_PATH="coverage/Py_demo$06radiobutton.coverage" NAME="06radiobutton Coverage Results" MODIFIED="1567945597874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
+>>>>>>> 2c25181351c7b00ae78278cfc66912d95cc83572
     <SUITE FILE_PATH="coverage/Py_demo$11Frame.coverage" NAME="11Frame Coverage Results" MODIFIED="1567945996559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
     <SUITE FILE_PATH="coverage/Py_demo$py_seria_tool.coverage" NAME="py_seria_tool Coverage Results" MODIFIED="1567905336089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Serial" />
     <SUITE FILE_PATH="coverage/Py_demo$place.coverage" NAME="place Coverage Results" MODIFIED="1567946295096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code/13pack" />
@@ -510,7 +599,12 @@
     <SUITE FILE_PATH="coverage/Py_demo$09canvas.coverage" NAME="09canvas Coverage Results" MODIFIED="1567945848999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
     <SUITE FILE_PATH="coverage/Py_demo$14input.coverage" NAME="14input Coverage Results" MODIFIED="1567946379857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
     <SUITE FILE_PATH="coverage/Py_demo$08scale.coverage" NAME="08scale Coverage Results" MODIFIED="1567945740264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/py_demo$py_serial_tool3.coverage" NAME="py_serial_tool3 Coverage Results" MODIFIED="1567932421011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Serial" />
+=======
+    <SUITE FILE_PATH="coverage/Py_demo$py_serial_tool3.coverage" NAME="py_serial_tool3 Coverage Results" MODIFIED="1567913641159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Serial" />
+    <SUITE FILE_PATH="coverage/Py_demo$open_image_comm.coverage" NAME="open_image_comm Coverage Results" MODIFIED="1568433942647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/txt_open" />
+>>>>>>> 2c25181351c7b00ae78278cfc66912d95cc83572
     <SUITE FILE_PATH="coverage/Py_demo$05Listbox.coverage" NAME="05Listbox Coverage Results" MODIFIED="1567945554217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
     <SUITE FILE_PATH="coverage/Py_demo$file_open.coverage" NAME="file_open Coverage Results" MODIFIED="1568428905649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/txt_open" />
     <SUITE FILE_PATH="coverage/Py_demo$pytest_in_open_image_comm_py.coverage" NAME="pytest in open_image_comm.py Coverage Results" MODIFIED="1568429665599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/txt_open" />
@@ -687,20 +781,51 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/txt_open/memory_map_of_the_image.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="84" column="21" lean-forward="true" selection-start-line="46" selection-end-line="84" selection-end-column="21" />
+=======
+    <entry file="file://C:/Python37/Lib/site-packages/_pytest/assertion/rewrite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="300" selection-start-line="300" selection-end-line="300" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txt_open/file_open.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="71" column="16" lean-forward="true" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/txt_open/open_images_comm1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+>>>>>>> 2c25181351c7b00ae78278cfc66912d95cc83572
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/txt_open/open_image_comm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-621">
           <caret line="115" column="18" lean-forward="true" selection-start-line="115" selection-start-column="18" selection-end-line="115" selection-end-column="18" />
+=======
+    <entry file="file://$PROJECT_DIR$/txt_open/memory_map_of_the_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+>>>>>>> 2c25181351c7b00ae78278cfc66912d95cc83572
           <folding>
             <element signature="e#24#33#0" expanded="true" />
           </folding>
@@ -709,8 +834,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/txt_open/keil_map_to_xml.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="132">
           <caret line="177" column="44" selection-start-line="177" selection-start-column="34" selection-end-line="177" selection-end-column="44" />
+=======
+        <state relative-caret-position="214">
+          <caret line="145" column="53" selection-start-line="145" selection-start-column="53" selection-end-line="145" selection-end-column="53" />
+>>>>>>> 2c25181351c7b00ae78278cfc66912d95cc83572
           <folding>
             <element signature="e#24#33#0" expanded="true" />
           </folding>
