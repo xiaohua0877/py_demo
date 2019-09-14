@@ -16,29 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/txt_open/file_open.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Python37/Lib/site-packages/openpyxl/cell/cell.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="237" selection-start-line="237" selection-end-line="237" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Serial/py_seria_tool.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1925">
-              <caret line="84" column="37" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+            <state relative-caret-position="90">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -46,7 +25,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/txt_open/flash.map">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="44070">
               <caret line="1469" column="8" selection-start-line="1469" selection-start-column="8" selection-end-line="1469" selection-end-column="89" />
             </state>
           </provider>
@@ -55,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tkinter_code/11Frame.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
+            <state relative-caret-position="1140">
               <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
@@ -69,7 +48,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tkinter_code/13pack/13pack_grid_place.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
+            <state relative-caret-position="660">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
@@ -78,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tkinter_code/13pack/pack.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
+            <state relative-caret-position="690">
               <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
@@ -87,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tkinter_code/13pack/place.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
+            <state relative-caret-position="600">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
@@ -96,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tkinter_code/14input.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3325">
+            <state relative-caret-position="3990">
               <caret line="135" selection-start-line="135" selection-end-line="135" />
               <folding>
                 <element signature="e#59#98#0" expanded="true" />
@@ -165,27 +144,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="py_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="py_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="py_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="py_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="Serial" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="py_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="py_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="txt_open" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,6 +308,7 @@
       <workItem from="1567945119338" duration="4355000" />
       <workItem from="1567953149794" duration="1581000" />
       <workItem from="1568384442380" duration="5367000" />
+      <workItem from="1568420457236" duration="3073000" />
     </task>
     <servers />
   </component>
@@ -361,19 +321,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28042000" />
+    <option name="totallyTimeSpent" value="31115000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10857909" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1098081" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1855524" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44759208" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18546638" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44685465" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -420,30 +380,30 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Py_demo$python_.coverage" NAME="python 串口调试小工具 Coverage Results" MODIFIED="1567903577294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Serial" />
     <SUITE FILE_PATH="coverage/Py_demo$02button.coverage" NAME="02button Coverage Results" MODIFIED="1567945395787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
-    <SUITE FILE_PATH="coverage/Py_demo$13pack_grid_place.coverage" NAME="13pack_grid_place Coverage Results" MODIFIED="1567946169430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
-    <SUITE FILE_PATH="coverage/Py_demo$04Text.coverage" NAME="04Text Coverage Results" MODIFIED="1567945498692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
     <SUITE FILE_PATH="coverage/Py_demo$pack.coverage" NAME="pack Coverage Results" MODIFIED="1567946253692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code/13pack" />
     <SUITE FILE_PATH="coverage/Py_demo$12messageBox.coverage" NAME="12messageBox Coverage Results" MODIFIED="1567946089960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
-    <SUITE FILE_PATH="coverage/Py_demo$11Frame.coverage" NAME="11Frame Coverage Results" MODIFIED="1567945996559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
-    <SUITE FILE_PATH="coverage/Py_demo$07checkbutton.coverage" NAME="07checkbutton Coverage Results" MODIFIED="1567945705248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
-    <SUITE FILE_PATH="coverage/Py_demo$py_seria_tool.coverage" NAME="py_seria_tool Coverage Results" MODIFIED="1567905336089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Serial" />
-    <SUITE FILE_PATH="coverage/py_demo$file_open.coverage" NAME="file_open Coverage Results" MODIFIED="1568389867802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/txt_open" />
-    <SUITE FILE_PATH="coverage/Py_demo$place.coverage" NAME="place Coverage Results" MODIFIED="1567946295096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code/13pack" />
-    <SUITE FILE_PATH="coverage/Py_demo$10menu.coverage" NAME="10menu Coverage Results" MODIFIED="1567945941632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
-    <SUITE FILE_PATH="coverage/py_demo$pytest_in_test_thinker_py.coverage" NAME="pytest in test_thinker.py Coverage Results" MODIFIED="1567932175795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Serial" />
-    <SUITE FILE_PATH="coverage/Py_demo$python_.coverage" NAME="python 串口调试小工具 Coverage Results" MODIFIED="1567903577294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Serial" />
-    <SUITE FILE_PATH="coverage/Py_demo$06radiobutton.coverage" NAME="06radiobutton Coverage Results" MODIFIED="1567945597874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
-    <SUITE FILE_PATH="coverage/Py_demo$09canvas.coverage" NAME="09canvas Coverage Results" MODIFIED="1567945848999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
-    <SUITE FILE_PATH="coverage/Py_demo$14input.coverage" NAME="14input Coverage Results" MODIFIED="1567946379857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
-    <SUITE FILE_PATH="coverage/Py_demo$08scale.coverage" NAME="08scale Coverage Results" MODIFIED="1567945740264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
-    <SUITE FILE_PATH="coverage/Py_demo$py_seria_tool2.coverage" NAME="py_seria_tool2 Coverage Results" MODIFIED="1567907892252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Serial" />
-    <SUITE FILE_PATH="coverage/py_demo$py_serial_tool3.coverage" NAME="py_serial_tool3 Coverage Results" MODIFIED="1567932421011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Serial" />
-    <SUITE FILE_PATH="coverage/Py_demo$05Listbox.coverage" NAME="05Listbox Coverage Results" MODIFIED="1567945554217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
-    <SUITE FILE_PATH="coverage/Py_demo$file_open.coverage" NAME="file_open Coverage Results" MODIFIED="1567954726160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/txt_open" />
     <SUITE FILE_PATH="coverage/Py_demo$01text.coverage" NAME="01text Coverage Results" MODIFIED="1567945348418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
-    <SUITE FILE_PATH="coverage/Py_demo$03entry.coverage" NAME="03entry Coverage Results" MODIFIED="1567945452432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
+    <SUITE FILE_PATH="coverage/Py_demo$08scale.coverage" NAME="08scale Coverage Results" MODIFIED="1567945740264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
+    <SUITE FILE_PATH="coverage/py_demo$file_open.coverage" NAME="file_open Coverage Results" MODIFIED="1568389867802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/txt_open" />
+    <SUITE FILE_PATH="coverage/Py_demo$06radiobutton.coverage" NAME="06radiobutton Coverage Results" MODIFIED="1567945597874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
     <SUITE FILE_PATH="coverage/Py_demo$py_serial_tool3.coverage" NAME="py_serial_tool3 Coverage Results" MODIFIED="1567913641159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Serial" />
+    <SUITE FILE_PATH="coverage/Py_demo$11Frame.coverage" NAME="11Frame Coverage Results" MODIFIED="1567945996559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
+    <SUITE FILE_PATH="coverage/Py_demo$09canvas.coverage" NAME="09canvas Coverage Results" MODIFIED="1567945848999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
+    <SUITE FILE_PATH="coverage/Py_demo$05Listbox.coverage" NAME="05Listbox Coverage Results" MODIFIED="1567945554217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
+    <SUITE FILE_PATH="coverage/Py_demo$10menu.coverage" NAME="10menu Coverage Results" MODIFIED="1567945941632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
+    <SUITE FILE_PATH="coverage/Py_demo$file_open.coverage" NAME="file_open Coverage Results" MODIFIED="1568422595644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/txt_open" />
+    <SUITE FILE_PATH="coverage/Py_demo$07checkbutton.coverage" NAME="07checkbutton Coverage Results" MODIFIED="1567945705248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
+    <SUITE FILE_PATH="coverage/py_demo$py_serial_tool3.coverage" NAME="py_serial_tool3 Coverage Results" MODIFIED="1567932421011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Serial" />
+    <SUITE FILE_PATH="coverage/Py_demo$13pack_grid_place.coverage" NAME="13pack_grid_place Coverage Results" MODIFIED="1567946169430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
+    <SUITE FILE_PATH="coverage/Py_demo$py_seria_tool.coverage" NAME="py_seria_tool Coverage Results" MODIFIED="1567905336089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Serial" />
+    <SUITE FILE_PATH="coverage/Py_demo$03entry.coverage" NAME="03entry Coverage Results" MODIFIED="1567945452432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
+    <SUITE FILE_PATH="coverage/py_demo$pytest_in_test_thinker_py.coverage" NAME="pytest in test_thinker.py Coverage Results" MODIFIED="1567932175795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Serial" />
+    <SUITE FILE_PATH="coverage/Py_demo$place.coverage" NAME="place Coverage Results" MODIFIED="1567946295096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code/13pack" />
+    <SUITE FILE_PATH="coverage/Py_demo$py_seria_tool2.coverage" NAME="py_seria_tool2 Coverage Results" MODIFIED="1567907892252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Serial" />
+    <SUITE FILE_PATH="coverage/Py_demo$04Text.coverage" NAME="04Text Coverage Results" MODIFIED="1567945498692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
+    <SUITE FILE_PATH="coverage/Py_demo$14input.coverage" NAME="14input Coverage Results" MODIFIED="1567946379857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter_code" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Serial/python 串口调试小工具.py" />
@@ -556,9 +516,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/Python37/Lib/site-packages/openpyxl/cell/cell.py" />
+    <entry file="file://$PROJECT_DIR$/Serial/py_seria_tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="84" column="37" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txt_open/flash.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44070">
+          <caret line="1469" column="8" selection-start-line="1469" selection-start-column="8" selection-end-line="1469" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tkinter_code/11Frame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
+        <state relative-caret-position="1140">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
@@ -568,28 +543,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tkinter_code/13pack/13pack_grid_place.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
+        <state relative-caret-position="660">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tkinter_code/13pack/pack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
+        <state relative-caret-position="690">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tkinter_code/13pack/place.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
+        <state relative-caret-position="600">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tkinter_code/14input.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3325">
+        <state relative-caret-position="3990">
           <caret line="135" selection-start-line="135" selection-end-line="135" />
           <folding>
             <element signature="e#59#98#0" expanded="true" />
@@ -597,34 +572,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/txt_open/flash.map">
+    <entry file="file://C:/Python37/Lib/zipfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="1469" column="8" selection-start-line="1469" selection-start-column="8" selection-end-line="1469" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Serial/py_seria_tool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1925">
-          <caret line="84" column="37" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python37/Lib/site-packages/openpyxl/cell/cell.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="237" selection-start-line="237" selection-end-line="237" />
+        <state relative-caret-position="791">
+          <caret line="1208" selection-start-line="1208" selection-end-line="1208" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/txt_open/file_open.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>

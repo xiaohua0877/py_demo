@@ -59,26 +59,30 @@ def open_file_txt():
     src_line = f.readline()
     line = src_line[:-1]
     count = 1
-    flag = 0
-    res_list = []
+    Image_start_flag = 0
+    Image_com_list = []
     while src_line:  # 直到读取完文件
         src_line = f.readline()  # 读取一行文件，包括换行符
         count += 1
         line = src_line[:-1]
         if len(line) < 3 or line.endswith('------') or line.startswith('====='):
             continue
-        # print('第%s行:%s' % (count, line))
         if 'Image component' in line:
-            flag = 1
+            Image_start_flag = 1
             continue
-        if flag == 1:
-            print('第%s行:%s' % (count, line))
-            result = line.split()
-            print(result)
-            res_list.append(result)
+        if Image_start_flag == 1:
+            if 'Total R' in line:
+                continue
+            if 'Code (inc. data)' in line:
+                result = ['Code(inc)', 'data', 'RO Data', 'RW Data', 'ZI Data', 'Debug', 'Object Name']
+            else:
+                print('第%s行:%s' % (count, line))
+                result = line.split()
+                print(result)
+            Image_com_list.append(result)
 
     f.close()  # 关闭文件
-    return res_list
+    return Image_com_list
 
 
 # test_code_str()
