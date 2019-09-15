@@ -1,5 +1,16 @@
 # -*- coding: utf-8 -*-
+#!/usr/bin/env python3
+#
+# Copyright (c) 2017, Linaro Limited
+# Copyright (c) 2018, Bobby Noelte
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+# vim: ai:ts=4:sw=4
+import os, fnmatch
 import re
+import argparse
 from openpyxl import Workbook
 from openpyxl import load_workbook
 import time, datetime
@@ -202,6 +213,27 @@ def create_memory_map_xlsx():
     Image_list = open_Memory_Map_of_image()
     write_image_code(Image_list, image_comm_name)
 
+def parse_arguments():
+    rdh = argparse.RawDescriptionHelpFormatter
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=rdh)
 
-create_image_comm_xlsx()
-create_memory_map_xlsx()
+    # parser.add_argument("-d", "--dts", required=True, help="DTS file")
+    # parser.add_argument("-y", "--yaml", nargs='+', required=True,
+    #                     help="YAML file directories, we allow multiple")
+    # parser.add_argument("-i", "--include",
+    #                     help="Generate include file for the build system")
+    # parser.add_argument("-k", "--keyvalue",
+    #                     help="Generate config file for the build system")
+    # parser.add_argument("--old-alias-names", action='store_true',
+    #                     help="Generate aliases also in the old way, without "
+    #                          "compatibility information in their labels")
+    return parser.parse_args()
+
+
+def main():
+    args = parse_arguments()
+    create_image_comm_xlsx()
+    create_memory_map_xlsx()
+
+if __name__ == '__main__':
+    main()
