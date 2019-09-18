@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
-#!/usr/bin/env python3
+# !/usr/bin/env python3
 #
 # Copyright (c) 2017, Linaro Limited
 # Copyright (c) 2018, Bobby Noelte
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-
 # vim: ai:ts=4:sw=4
 import os, fnmatch
 import re
@@ -14,11 +13,12 @@ import argparse
 from openpyxl import Workbook
 from openpyxl import load_workbook
 import time, datetime
+import logging
 
 
 def my_test_code_str():
     now = datetime.datetime.now()
-    otherStyleTime = now.strftime("%Y_%m_%d_ %H%M%S")
+    otherStyleTime = now.strftime("%Y_%m_%d_%H%M%S")
     print(otherStyleTime)
     xlsx_name = 'out\\' + otherStyleTime + 'test.xlsx'
     print(xlsx_name)
@@ -41,18 +41,7 @@ def my_test_code_str():
     b = line.split()
     print(b)
     ws.append(b)
-
-    # Save the file
     wb.save(xlsx_name)
-
-    # wb = load_workbook('flash.xlsx')
-    # wb.guess_types = True
-    # ws = wb.active
-    # ws['A1'] = 42
-    # ws.append([1, 2, 3])
-
-    # print(b)
-    # wb.save("flash.xlsx")
 
 
 def is_number(s):
@@ -83,7 +72,14 @@ def write_image_code(bbList, image_comm_name):
     wb = Workbook()  # 创建文件对象
     ws = wb.active  # 获取第一个sheet
     src_list = bbList
+
     for bb in src_list:
+        ll = len(bb)
+        if ll == 8:
+            ws.column_dimensions['H'].width = 40
+        if ll ==9:
+            ws.column_dimensions['H'].width = 40
+            ws.column_dimensions['I'].width = 40
         new_number = []
         for n in bb:
             if is_number(n) is True:
@@ -93,23 +89,20 @@ def write_image_code(bbList, image_comm_name):
         bb = new_number
         ws.append(bb)
     # Save the file
+
     wb.save(xlsx_name)
     print('保存文件名 ' + xlsx_name)
 
 
 def List_to_7Item(src_list):
-    # print(src_list)
-    tt = 0
-    list_dst = []
-    for n in src_list:
-        tt += 1
-        if tt > 7:
-            # print(result1[6])
-            list_dst[6] = list_dst[6] + ' ' + n
-        else:
-            list_dst.append(n)
-    # print(list_dst)
-    return list_dst
+    logging.debug(src_list)
+    bb = len(src_list)
+    list1 = src_list[:6]
+    list2 = src_list[6:bb]
+    s = ' '.join(list2)
+    list1.append(s)
+    logging.debug(list1)
+    return list1
 
 
 # Image component sizes
@@ -189,20 +182,19 @@ def open_Memory_Map_of_image():
                 Image_list.append(space_line)
                 result = ['Exec Addr', 'Load Addr', 'Size', 'Type', 'Attr', 'Idx', 'E Section Name', 'Object']
             else:
-                # print('第%s行:%s' % (count, line))
+                logging.debug('第%s行:%s' % (count, line))
                 result = line.split()
-                # print(result)
+                #logging.debug(result)
             item_cnt += 1
             result.insert(0, item_cnt)
             Image_list.append(result)
 
     f.close()  # 关闭文件
-    # print(Image_list)
+    logging.debug(Image_list)
     return Image_list
 
 
 def create_image_comm_xlsx():
-    # xlsx_name = 'out\\' + otherStyleTime + 'image_comm.xlsx'
     image_comm_name = 'out\\' + create_my_timename() + '_image_comm.xlsx'
     image_com_list = open_image_component_sizes()
     write_image_code(image_com_list, image_comm_name)
@@ -212,6 +204,7 @@ def create_memory_map_xlsx():
     image_comm_name = 'out\\' + create_my_timename() + '_memory_map.xlsx'
     Image_list = open_Memory_Map_of_image()
     write_image_code(Image_list, image_comm_name)
+
 
 def parse_arguments():
     rdh = argparse.RawDescriptionHelpFormatter
@@ -231,9 +224,24 @@ def parse_arguments():
 
 
 def main():
+    logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s - %(funcName)s %(lineno)d %(message)s',
+                        )
+    logging.debug("test code debug")
+    logging.info("test code info")
     args = parse_arguments()
     create_image_comm_xlsx()
     create_memory_map_xlsx()
 
+
 if __name__ == '__main__':
     main()
+
+'''
+for n in src_list:
+    tt += 1
+    if tt > 7:
+        logging.debug(" " + src_list[6])
+        list_dst[6] = list_dst[6] + ' ' + n
+    else:
+        list_dst.append(n)
+'''
